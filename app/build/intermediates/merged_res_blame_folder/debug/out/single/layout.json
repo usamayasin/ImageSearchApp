@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\usama.yasin.AFINITI\\AndroidStudioProjects\\SearchApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\home_fragment.xml",
+        "source": "C:\\Users\\usama.yasin.AFINITI\\AndroidStudioProjects\\SearchApp\\app\\src\\main\\res\\layout\\home_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\usama.yasin.AFINITI\\AndroidStudioProjects\\SearchApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\photo_detail_fragment.xml",
+        "source": "C:\\Users\\usama.yasin.AFINITI\\AndroidStudioProjects\\SearchApp\\app\\src\\main\\res\\layout\\photo_detail_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\usama.yasin.AFINITI\\AndroidStudioProjects\\SearchApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\photo_item_layout.xml",
+        "source": "C:\\Users\\usama.yasin.AFINITI\\AndroidStudioProjects\\SearchApp\\app\\src\\main\\res\\layout\\photo_item_layout.xml"
+    }
+]

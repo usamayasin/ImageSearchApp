@@ -1,0 +1,28 @@
+com/app/searchapp/databinding/PhotoItemLayoutBinding.java
+ com.app.searchapp.databinding.PhotoItemLayoutBinding
+com/app/searchapp/databinding/PhotoItemLayoutBindingImpl.java
+ com.app.searchapp.databinding.PhotoItemLayoutBindingImpl
+com/app/searchapp/BR.java
+ com.app.searchapp.BR
+com/app/searchapp/DataBindingTriggerClass.java
+ com.app.searchapp.DataBindingTriggerClass
+com/app/searchapp/databinding/HomeFragmentBindingImpl.java
+ com.app.searchapp.databinding.HomeFragmentBindingImpl
+com/app/searchapp/BuildConfig.java
+ com.app.searchapp.BuildConfig
+com/app/searchapp/databinding/HomeFragmentBinding.java
+ com.app.searchapp.databinding.HomeFragmentBinding
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+com/app/searchapp/databinding/PhotoDetailFragmentBinding.java
+ com.app.searchapp.databinding.PhotoDetailFragmentBinding
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+com/app/searchapp/DataBinderMapperImpl.java
+ com.app.searchapp.DataBinderMapperImpl
+ com.app.searchapp.DataBinderMapperImpl$InnerBrLookup
+ com.app.searchapp.DataBinderMapperImpl$InnerLayoutIdLookup
+com/app/searchapp/databinding/PhotoDetailFragmentBindingImpl.java
+ com.app.searchapp.databinding.PhotoDetailFragmentBindingImpl

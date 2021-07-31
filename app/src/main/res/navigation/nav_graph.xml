@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.app.searchapp.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/home_fragment" >
+        <action
+            android:id="@+id/toPhotoDetailFragment"
+            app:destination="@id/photoDetailFragment" />
+
+        <argument
+            android:name="image"
+            android:defaultValue=""
+            app:argType="string" />
+
+        <argument
+            android:name="username"
+            android:defaultValue=""
+            app:argType="string" />
+
+        <argument
+            android:name="tags"
+            android:defaultValue=""
+            app:argType="string" />
+
+        <argument
+            android:name="likes"
+            android:defaultValue=""
+            app:argType="string" />
+
+        <argument
+            android:name="comments"
+            android:defaultValue=""
+            app:argType="string" />
+
+        <argument
+            android:name="downloads"
+            android:defaultValue=""
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/photoDetailFragment"
+        android:name="com.app.searchapp.ui.photodetails.PhotoDetailFragment"
+        android:label="fragment_photo_detail"
+        tools:layout="@layout/photo_detail_fragment" >
+    </fragment>
+
+</navigation>

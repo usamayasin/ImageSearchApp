@@ -1,0 +1,321 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [androidx.databinding:databinding-adapters:4.2.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fc5356c2cf9f145b7e21027ac2b60e11\databinding-adapters-4.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.databinding:databinding-runtime:4.2.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\5b05c895f31549c55774382bf7dc1326\databinding-runtime-4.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\18a1291ede5fc5b464e33f97323e1232\navigation-fragment-ktx-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1959317306efb7017033fa8dbbefe890\fragment-ktx-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\d9aa95cae1f3cd9e18c50f5bb7a6d322\navigation-ui-ktx-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\0a83bab25e7eff4815201b80003ad48c\navigation-runtime-ktx-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\7c890aeb691444cbefbdb730995065f8\navigation-common-ktx-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\debcd223364316ea26a4992334c0a784\activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\088376562499d05e30f20cb1c5c1d4a9\core-ktx-1.6.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams-ktx:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a920e6bb426faa4340a305d1115d04ac\lifecycle-reactivestreams-ktx-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\2edf6942f9dae50c8732d38ef4cfff76\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f0ab2920cbb8c5f9b83fdf85bb03b4c8\lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fece36835ddcbdb36896fef5c8416967\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9e3e4e1ea41b13a46aab73ab837e6de3\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c56533ec4c0336e409f3c164c3f88421\navigation-ui-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\da56b576ff7f9b688ade19ae5322a7d8\material-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fcb66b2e2ee473bc05d414150fef48ab\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.dagger:dagger-android-support:2.26] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\74efd27c60e326b3d91ccd8619a38dc0\dagger-android-support-2.26\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\4fa6e9c63e5ce6fd72035587c8b1db8e\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-android:2.26] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1e6edad781b26af1973c0de30cff4179\dagger-android-2.26\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\2801eef816b98756584e8af4906d89f9\rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\be8b3f08ea62e3094dd230f087659c7c\glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9fc97b3526104553d73c5e40e3d6aa46\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6d44aad87437e2261a7dac75fd63191b\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\86e9b0a7523ce3ef9426158db7dabdf4\jetified-library-1.5.6\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\3447cd9fa472e0d71ba02218171294e5\viewbinding-4.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1fc4ffe877829d47773377d4461ba9ed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\7f292513999b30a742b3eb72460a0726\navigation-fragment-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9dc8c8c80000187236192e64c3403e3e\fragment-1.3.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\26440afac3218a1367c9ae14e2b7096c\navigation-runtime-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\ca23a85d0f93359ac87be3a8821193c4\activity-1.2.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c8c91219ff6b2890fe275415cd6a334b\appcompat-resources-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a34664ef4edbffd3f4b1c84b1bfc8234\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\feaa52f4ce6b7a399332b13c32d85fe6\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\3c41c7c1888f6e0c3cc570fb0d00c7fe\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\804baaa19aebf4ae96f8a291d63eb7bf\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\b20b6e7645190b571ce32ea7a8ca0ae8\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f3547f987360741be529efbe58ecaadf\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\ba9acce1a78141b69de4c7e5a929d5a1\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a30aa37f357531d5d3c6468df14437f8\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\93c1ac03067aa7a060dc8ec504e6cd26\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6ee9becff7a7cc2c8818dd0266055245\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\333db6cd639c6a0876ea29d58be354f8\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\41097b2e7b4849ef18a8faaf470af93c\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\3ff27da300b81242be69f3d75d166010\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\e3ed7f641bae9ea80abf5c0db859506d\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\d43dc3eebec8dc7344bdddd3b709e666\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\ea948680fc1029a5c5c9690b7f312355\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\5f7929c431f069a318b27e5183a4c1e9\navigation-common-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c7f93bd89afa9e9a1ca59f7f5943aedf\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\e83532037ed40d587cd70017947d624c\lifecycle-reactivestreams-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a45c6f2e0ba4b9149a1cccc4ecb71f18\lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f5ca9502ec65f5f616fe1c6a45289b7c\lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c5b33cad22cc40b2c8895845b0092cfc\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\edff7343ec942ed573547a50f38dfb94\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\62f3afb1896945826b4117eae7037368\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\10d50eacd27163c6a3a294ad2ee9ca32\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\23c512ddfc2ba97e93d605cbae0c4ad6\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6a4174c52388a40e7dfa3043732f1bce\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\0a8733ed0bc31d322c9a0dcca9aca8e3\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1574aa8adc94f33593141b6102c45d9a\gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\88727d1fb0d03aa1c9d30d270fff0f15\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\076cbbc53fde27d2aae282562eecbdd7\lifecycle-livedata-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\36d0742c2597aecfdad6251c9ca445fd\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\bff90840bdfae9b6f89cbecc92c57a28\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6aa3bc5feac089396f96694b738fe971\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f1bda069cc0ebf7379fed866c8700b0a\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9590a4bb01e134567fdbc8c4073e2582\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\d2b637ac9810df88c1c40113091c2642\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\bdb55a2b05f00a730cbfcf032da6ccc3\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fa1fe5083cd809ac7ab27b87fa519eca\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f90ed32f3636fe6c588e4ae76c3656cb\jetified-materialish-progress-1.7\AndroidManifest.xml:2:1-13:12
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:4:5-32
+		INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:6:22-64
+application
+ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:8:5-23:19
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\da56b576ff7f9b688ade19ae5322a7d8\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\da56b576ff7f9b688ade19ae5322a7d8\material-1.4.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fcb66b2e2ee473bc05d414150fef48ab\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fcb66b2e2ee473bc05d414150fef48ab\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\be8b3f08ea62e3094dd230f087659c7c\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\be8b3f08ea62e3094dd230f087659c7c\glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6d44aad87437e2261a7dac75fd63191b\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6d44aad87437e2261a7dac75fd63191b\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\86e9b0a7523ce3ef9426158db7dabdf4\jetified-library-1.5.6\AndroidManifest.xml:11:5-20
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\86e9b0a7523ce3ef9426158db7dabdf4\jetified-library-1.5.6\AndroidManifest.xml:11:5-20
+MERGED from [androidx.core:core:1.6.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c7f93bd89afa9e9a1ca59f7f5943aedf\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c7f93bd89afa9e9a1ca59f7f5943aedf\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a45c6f2e0ba4b9149a1cccc4ecb71f18\lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a45c6f2e0ba4b9149a1cccc4ecb71f18\lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\edff7343ec942ed573547a50f38dfb94\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\edff7343ec942ed573547a50f38dfb94\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1574aa8adc94f33593141b6102c45d9a\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1574aa8adc94f33593141b6102c45d9a\gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f90ed32f3636fe6c588e4ae76c3656cb\jetified-materialish-progress-1.7\AndroidManifest.xml:11:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f90ed32f3636fe6c588e4ae76c3656cb\jetified-materialish-progress-1.7\AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c7f93bd89afa9e9a1ca59f7f5943aedf\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:13:9-54
+	android:icon
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:15:9-47
+	tools:replace
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:11:9-37
+activity#com.app.searchapp.ui.MainActivity
+ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:16:9-22:20
+	android:name
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:16:19-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml:20:27-74
+uses-sdk
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.2.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fc5356c2cf9f145b7e21027ac2b60e11\databinding-adapters-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.2.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fc5356c2cf9f145b7e21027ac2b60e11\databinding-adapters-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.2.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\5b05c895f31549c55774382bf7dc1326\databinding-runtime-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.2.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\5b05c895f31549c55774382bf7dc1326\databinding-runtime-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\18a1291ede5fc5b464e33f97323e1232\navigation-fragment-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\18a1291ede5fc5b464e33f97323e1232\navigation-fragment-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1959317306efb7017033fa8dbbefe890\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1959317306efb7017033fa8dbbefe890\fragment-ktx-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\d9aa95cae1f3cd9e18c50f5bb7a6d322\navigation-ui-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\d9aa95cae1f3cd9e18c50f5bb7a6d322\navigation-ui-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\0a83bab25e7eff4815201b80003ad48c\navigation-runtime-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\0a83bab25e7eff4815201b80003ad48c\navigation-runtime-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\7c890aeb691444cbefbdb730995065f8\navigation-common-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\7c890aeb691444cbefbdb730995065f8\navigation-common-ktx-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\debcd223364316ea26a4992334c0a784\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\debcd223364316ea26a4992334c0a784\activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\088376562499d05e30f20cb1c5c1d4a9\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\088376562499d05e30f20cb1c5c1d4a9\core-ktx-1.6.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams-ktx:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a920e6bb426faa4340a305d1115d04ac\lifecycle-reactivestreams-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams-ktx:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a920e6bb426faa4340a305d1115d04ac\lifecycle-reactivestreams-ktx-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\2edf6942f9dae50c8732d38ef4cfff76\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\2edf6942f9dae50c8732d38ef4cfff76\lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f0ab2920cbb8c5f9b83fdf85bb03b4c8\lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f0ab2920cbb8c5f9b83fdf85bb03b4c8\lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fece36835ddcbdb36896fef5c8416967\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fece36835ddcbdb36896fef5c8416967\lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9e3e4e1ea41b13a46aab73ab837e6de3\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9e3e4e1ea41b13a46aab73ab837e6de3\lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c56533ec4c0336e409f3c164c3f88421\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c56533ec4c0336e409f3c164c3f88421\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\da56b576ff7f9b688ade19ae5322a7d8\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.4.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\da56b576ff7f9b688ade19ae5322a7d8\material-1.4.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fcb66b2e2ee473bc05d414150fef48ab\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fcb66b2e2ee473bc05d414150fef48ab\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.dagger:dagger-android-support:2.26] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\74efd27c60e326b3d91ccd8619a38dc0\dagger-android-support-2.26\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.26] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\74efd27c60e326b3d91ccd8619a38dc0\dagger-android-support-2.26\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\4fa6e9c63e5ce6fd72035587c8b1db8e\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\4fa6e9c63e5ce6fd72035587c8b1db8e\appcompat-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-android:2.26] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1e6edad781b26af1973c0de30cff4179\dagger-android-2.26\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.26] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1e6edad781b26af1973c0de30cff4179\dagger-android-2.26\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\2801eef816b98756584e8af4906d89f9\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\2801eef816b98756584e8af4906d89f9\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\be8b3f08ea62e3094dd230f087659c7c\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\be8b3f08ea62e3094dd230f087659c7c\glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9fc97b3526104553d73c5e40e3d6aa46\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9fc97b3526104553d73c5e40e3d6aa46\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6d44aad87437e2261a7dac75fd63191b\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6d44aad87437e2261a7dac75fd63191b\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\86e9b0a7523ce3ef9426158db7dabdf4\jetified-library-1.5.6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.f0ris.sweetalert:library:1.5.6] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\86e9b0a7523ce3ef9426158db7dabdf4\jetified-library-1.5.6\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\3447cd9fa472e0d71ba02218171294e5\viewbinding-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\3447cd9fa472e0d71ba02218171294e5\viewbinding-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1fc4ffe877829d47773377d4461ba9ed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1fc4ffe877829d47773377d4461ba9ed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\7f292513999b30a742b3eb72460a0726\navigation-fragment-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\7f292513999b30a742b3eb72460a0726\navigation-fragment-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9dc8c8c80000187236192e64c3403e3e\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.4] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9dc8c8c80000187236192e64c3403e3e\fragment-1.3.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\26440afac3218a1367c9ae14e2b7096c\navigation-runtime-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\26440afac3218a1367c9ae14e2b7096c\navigation-runtime-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\ca23a85d0f93359ac87be3a8821193c4\activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\ca23a85d0f93359ac87be3a8821193c4\activity-1.2.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c8c91219ff6b2890fe275415cd6a334b\appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c8c91219ff6b2890fe275415cd6a334b\appcompat-resources-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a34664ef4edbffd3f4b1c84b1bfc8234\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a34664ef4edbffd3f4b1c84b1bfc8234\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\feaa52f4ce6b7a399332b13c32d85fe6\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\feaa52f4ce6b7a399332b13c32d85fe6\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\3c41c7c1888f6e0c3cc570fb0d00c7fe\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\3c41c7c1888f6e0c3cc570fb0d00c7fe\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\804baaa19aebf4ae96f8a291d63eb7bf\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\804baaa19aebf4ae96f8a291d63eb7bf\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\b20b6e7645190b571ce32ea7a8ca0ae8\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\b20b6e7645190b571ce32ea7a8ca0ae8\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f3547f987360741be529efbe58ecaadf\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f3547f987360741be529efbe58ecaadf\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\ba9acce1a78141b69de4c7e5a929d5a1\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\ba9acce1a78141b69de4c7e5a929d5a1\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a30aa37f357531d5d3c6468df14437f8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a30aa37f357531d5d3c6468df14437f8\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\93c1ac03067aa7a060dc8ec504e6cd26\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\93c1ac03067aa7a060dc8ec504e6cd26\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6ee9becff7a7cc2c8818dd0266055245\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6ee9becff7a7cc2c8818dd0266055245\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\333db6cd639c6a0876ea29d58be354f8\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\333db6cd639c6a0876ea29d58be354f8\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\41097b2e7b4849ef18a8faaf470af93c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\41097b2e7b4849ef18a8faaf470af93c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\3ff27da300b81242be69f3d75d166010\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\3ff27da300b81242be69f3d75d166010\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\e3ed7f641bae9ea80abf5c0db859506d\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\e3ed7f641bae9ea80abf5c0db859506d\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\d43dc3eebec8dc7344bdddd3b709e666\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\d43dc3eebec8dc7344bdddd3b709e666\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\ea948680fc1029a5c5c9690b7f312355\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\ea948680fc1029a5c5c9690b7f312355\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\5f7929c431f069a318b27e5183a4c1e9\navigation-common-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\5f7929c431f069a318b27e5183a4c1e9\navigation-common-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c7f93bd89afa9e9a1ca59f7f5943aedf\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c7f93bd89afa9e9a1ca59f7f5943aedf\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\e83532037ed40d587cd70017947d624c\lifecycle-reactivestreams-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\e83532037ed40d587cd70017947d624c\lifecycle-reactivestreams-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a45c6f2e0ba4b9149a1cccc4ecb71f18\lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a45c6f2e0ba4b9149a1cccc4ecb71f18\lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f5ca9502ec65f5f616fe1c6a45289b7c\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f5ca9502ec65f5f616fe1c6a45289b7c\lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c5b33cad22cc40b2c8895845b0092cfc\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\c5b33cad22cc40b2c8895845b0092cfc\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\edff7343ec942ed573547a50f38dfb94\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\edff7343ec942ed573547a50f38dfb94\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\62f3afb1896945826b4117eae7037368\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\62f3afb1896945826b4117eae7037368\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\10d50eacd27163c6a3a294ad2ee9ca32\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\10d50eacd27163c6a3a294ad2ee9ca32\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\23c512ddfc2ba97e93d605cbae0c4ad6\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\23c512ddfc2ba97e93d605cbae0c4ad6\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6a4174c52388a40e7dfa3043732f1bce\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6a4174c52388a40e7dfa3043732f1bce\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\0a8733ed0bc31d322c9a0dcca9aca8e3\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\0a8733ed0bc31d322c9a0dcca9aca8e3\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1574aa8adc94f33593141b6102c45d9a\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\1574aa8adc94f33593141b6102c45d9a\gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\88727d1fb0d03aa1c9d30d270fff0f15\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\88727d1fb0d03aa1c9d30d270fff0f15\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\076cbbc53fde27d2aae282562eecbdd7\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\076cbbc53fde27d2aae282562eecbdd7\lifecycle-livedata-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\36d0742c2597aecfdad6251c9ca445fd\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\36d0742c2597aecfdad6251c9ca445fd\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\bff90840bdfae9b6f89cbecc92c57a28\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\bff90840bdfae9b6f89cbecc92c57a28\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6aa3bc5feac089396f96694b738fe971\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\6aa3bc5feac089396f96694b738fe971\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f1bda069cc0ebf7379fed866c8700b0a\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f1bda069cc0ebf7379fed866c8700b0a\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9590a4bb01e134567fdbc8c4073e2582\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\9590a4bb01e134567fdbc8c4073e2582\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\d2b637ac9810df88c1c40113091c2642\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\d2b637ac9810df88c1c40113091c2642\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\bdb55a2b05f00a730cbfcf032da6ccc3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\bdb55a2b05f00a730cbfcf032da6ccc3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fa1fe5083cd809ac7ab27b87fa519eca\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\fa1fe5083cd809ac7ab27b87fa519eca\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f90ed32f3636fe6c588e4ae76c3656cb\jetified-materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\f90ed32f3636fe6c588e4ae76c3656cb\jetified-materialish-progress-1.7\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\usama.yasin.AFINITI\AndroidStudioProjects\SearchApp\app\src\main\AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a45c6f2e0ba4b9149a1cccc4ecb71f18\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a45c6f2e0ba4b9149a1cccc4ecb71f18\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a45c6f2e0ba4b9149a1cccc4ecb71f18\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a45c6f2e0ba4b9149a1cccc4ecb71f18\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\usama.yasin.AFINITI\.gradle\caches\transforms-2\files-2.1\a45c6f2e0ba4b9149a1cccc4ecb71f18\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
