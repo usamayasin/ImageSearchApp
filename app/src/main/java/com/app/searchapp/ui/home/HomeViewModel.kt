@@ -10,20 +10,25 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 
-class HomeViewModel : ViewModel() {
+class HomeViewModel( repository: Repository): ViewModel() {
 
+    var mRepository:Repository
     private val disposables = CompositeDisposable()
     private val imagesMutableLiveData = MutableLiveData<List<PixabayImage>>()
     val imageLiveData: LiveData<List<PixabayImage>> = imagesMutableLiveData
 
+    init{
+        this.mRepository = repository
+    }
+
     fun fetchImages(page: Int, keyword: String) {
-        disposables.add(Repository.getImages(page,keyword)
+        disposables.add(mRepository.getImages(page,keyword)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({ result ->
                 if (result.isSuccessful) {
                     result.body()?.also {
-                            imagesMutableLiveData.postValue(it.hits)
+                        imagesMutableLiveData.postValue(it.hits)
                     }
                 } else{
                     Log.e("Error", result.message())

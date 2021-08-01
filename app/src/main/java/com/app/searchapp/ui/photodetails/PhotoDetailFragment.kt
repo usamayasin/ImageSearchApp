@@ -33,12 +33,10 @@ class PhotoDetailFragment : Fragment() {
             R.string.label_username,
             arguments?.get(SearchAppConst.CONST_USERNAME_KEY).toString()
         )
-
         mBinding.tvTags.text = requireActivity().getString(
             R.string.label_tags_by,
             arguments?.get(SearchAppConst.CONST_TAGS_KEY).toString()
         )
-
         mBinding.tvLikes.text = arguments?.get(SearchAppConst.CONST_LIKES_KEY).toString()
         mBinding.tvComments.text = arguments?.get(SearchAppConst.CONST_COMMENTS_KEY).toString()
         mBinding.tvDownloads.text = arguments?.get(SearchAppConst.CONST_DOWNLOADS_KEY).toString()

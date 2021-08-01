@@ -14,15 +14,12 @@ class ApiClient  {
 
         private var baseUrl = "https://pixabay.com/api/"
         private var retrofit: Retrofit? = null
-        private var service: ApiInterface? = null
-        @Volatile private var INSTANCE: ApiInterface? = null
+        private var service: ApiService? = null
+        @Volatile private var INSTANCE: ApiService? = null
 
-        fun getInstance(): ApiInterface? =
-            INSTANCE ?: synchronized(this) {
-                INSTANCE ?: buildApiInstance().also { INSTANCE = it }
-            }
 
-        private fun buildApiInstance(): ApiInterface? {
+
+        private fun buildApiInstance(): ApiService? {
             try {
                 val interceptor : HttpLoggingInterceptor = HttpLoggingInterceptor().apply {
                     this.level = HttpLoggingInterceptor.Level.BODY
@@ -42,7 +39,7 @@ class ApiClient  {
                         .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                         .build()
                     service = retrofit?.create(
-                        ApiInterface::class.java
+                        ApiService::class.java
                     )
                 } else {
                     return service
@@ -52,4 +49,9 @@ class ApiClient  {
             return service
         }
     }
+
+    fun getInstance(): ApiService? =
+        INSTANCE ?: synchronized(this) {
+            INSTANCE ?: buildApiInstance().also { INSTANCE = it }
+        }
 }
