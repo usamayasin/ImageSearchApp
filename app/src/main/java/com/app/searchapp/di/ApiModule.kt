@@ -1,7 +1,6 @@
 package com.app.searchapp.di
 
 import com.app.searchapp.data.repository.Repository
-import com.app.searchapp.data.service.ApiClient
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import dagger.Module
 import dagger.Provides
