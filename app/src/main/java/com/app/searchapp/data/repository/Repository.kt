@@ -18,9 +18,6 @@ class Repository {
     init {
         appComponent =  MyApplication.appComponent
         appComponent.inject(this)
-//
-//        var appComponent :AppComponent =  MyApplication.appComponent
-//        appComponent.inject(this)
     }
 
     private var apiService: ApiService = retrofit.create(ApiService::class.java)

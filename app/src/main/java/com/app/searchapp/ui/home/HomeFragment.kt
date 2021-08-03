@@ -123,12 +123,12 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
 
     override fun onImageClicked(image: PixabayImage) {
         val bundle = bundleOf(
-            SearchAppConst.CONST_IMAGE_KEY to image.largeImageURL,
-            SearchAppConst.CONST_USERNAME_KEY to image.user,
-            SearchAppConst.CONST_TAGS_KEY to image.tags,
-            SearchAppConst.CONST_LIKES_KEY to image.likes.toString(),
-            SearchAppConst.CONST_DOWNLOADS_KEY to image.downloads.toString(),
-            SearchAppConst.CONST_COMMENTS_KEY to image.comments.toString()
+            SearchAppConst.Keys.CONST_IMAGE_KEY to image.largeImageURL,
+            SearchAppConst.Keys.CONST_USERNAME_KEY to image.user,
+            SearchAppConst.Keys.CONST_TAGS_KEY to image.tags,
+            SearchAppConst.Keys.CONST_LIKES_KEY to image.likes.toString(),
+            SearchAppConst.Keys.CONST_DOWNLOADS_KEY to image.downloads.toString(),
+            SearchAppConst.Keys.CONST_COMMENTS_KEY to image.comments.toString()
         )
 
         SweetAlertDialog(context, SweetAlertDialog.SUCCESS_TYPE)

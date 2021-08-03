@@ -58,8 +58,8 @@ class ImageAdapter(
     }
 
     inner class ImagesViewHolder(
-        val itemViewDataBinding: PhotoItemLayoutBinding,
-        argg_list: List<PixabayImage>,
+        private val itemViewDataBinding: PhotoItemLayoutBinding,
+        imagesList: List<PixabayImage>,
         var context: Context
     ) :
         RecyclerView.ViewHolder(itemViewDataBinding.root), View.OnClickListener {
@@ -71,7 +71,7 @@ class ImageAdapter(
         }
 
         init {
-            dataList = argg_list
+            dataList = imagesList
             try {
                 itemViewDataBinding.root.setOnClickListener(this)
             } catch (e: Exception) {

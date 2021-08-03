@@ -21,14 +21,10 @@ open class MyApplication : Application() {
 
     }
 
-    fun getAppComponent(): AppComponent {
-        return appComponent
-    }
-
     open fun initDaggerComponent():AppComponent{
         appComponent = DaggerAppComponent
             .builder()
-            .apiModule(ApiModule(SearchAppConst.BASE_URL))
+            .apiModule(ApiModule(SearchAppConst.Keys.BASE_URL))
             .build()
         return  appComponent
     }

@@ -1,8 +1,8 @@
 package com.app.searchapp.utils
 
-class SearchAppConst {
+object SearchAppConst {
 
-    companion object {
+    object Keys {
         const val CONST_IMAGE_KEY = "image"
         const val CONST_USERNAME_KEY = "username"
         const val CONST_TAGS_KEY = "tags"
