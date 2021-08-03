@@ -11,12 +11,7 @@ import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
 
 @Module
-class ApiModule constructor(baseURL: String) {
-
-    var baseURL: String? = ""
-    init {
-        this.baseURL = baseURL
-    }
+class ApiModule constructor( private val baseURL: String ) {
 
     @Singleton
     @Provides
@@ -48,7 +43,7 @@ class ApiModule constructor(baseURL: String) {
     }
 
     @Provides
-    fun provideRepository():Repository{
-        return Repository()
+    fun provideRepository(retrofit: Retrofit): Repository {
+        return Repository(retrofit)
     }
 }

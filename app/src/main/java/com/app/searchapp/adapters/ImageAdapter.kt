@@ -32,6 +32,11 @@ class ImageAdapter(
         notifyDataSetChanged()
     }
 
+    fun clearDataList(){
+        this.listModels.clear()
+        notifyDataSetChanged()
+    }
+
     fun appendDataList(dataList: List<PixabayImage>) {
         listModels.addAll(dataList)
         notifyDataSetChanged()
@@ -67,7 +72,7 @@ class ImageAdapter(
         var dataList: List<PixabayImage>
 
         override fun onClick(v: View) {
-            listener.onImageClicked(dataList[adapterPosition])
+            if(adapterPosition < dataList.size) listener.onImageClicked(dataList[adapterPosition])
         }
 
         init {
@@ -81,7 +86,7 @@ class ImageAdapter(
 
         fun bind(item: PixabayImage) {
             itemViewDataBinding.data = item
-            Glide.with(itemViewDataBinding.root.context).load(item.previewURL).into(itemViewDataBinding.imgPhoto)
+            Glide.with(itemViewDataBinding.root.context).load(item.largeImageURL).into(itemViewDataBinding.imgPhoto)
         }
     }
 }

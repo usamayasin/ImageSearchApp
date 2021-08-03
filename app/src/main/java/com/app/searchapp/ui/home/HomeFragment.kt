@@ -1,5 +1,6 @@
 package com.app.searchapp.ui.home
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,7 +9,7 @@ import android.view.inputmethod.EditorInfo
 import android.widget.TextView
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.ViewModelProviders
+import androidx.fragment.app.viewModels
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -21,20 +22,26 @@ import com.app.searchapp.model.PixabayImage
 import com.app.searchapp.utils.EndlessScrollListener
 import com.app.searchapp.utils.SearchAppConst
 import com.app.searchapp.utils.closeSoftKeyboard
+import dagger.android.support.AndroidSupportInjection
 import kotlinx.android.synthetic.main.home_fragment.*
 import kotlinx.android.synthetic.main.home_fragment.view.*
 import java.util.*
+import javax.inject.Inject
 
 class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
 
-    lateinit var mViewModel: HomeViewModel
+    @Inject
+    lateinit var viewModelFactory: ViewModelFactory
+    private val mViewModel: HomeViewModel by viewModels {
+        viewModelFactory
+    }
 
-    private lateinit var mBinding:HomeFragmentBinding
+    private lateinit var mBinding: HomeFragmentBinding
     private var imageAdapter: ImageAdapter? = null
     private var imagesList: ArrayList<PixabayImage> = ArrayList<PixabayImage>()
     private lateinit var scrollListener: EndlessScrollListener
     private var isPagination = false
-    private var mKeyWords:String = ""
+    private var mKeyWords: String = ""
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -51,11 +58,12 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
         setUpObserver()
     }
 
-    private fun init() {
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        AndroidSupportInjection.inject(this)
+    }
 
-        // initializing ViewModel
-        var mViewModelFactory = ViewModelFactory()
-        mViewModel = ViewModelProviders.of(this, mViewModelFactory).get(HomeViewModel::class.java)
+    private fun init() {
 
         val gridLayoutManager = GridLayoutManager(mBinding.recyclerPopularPhotos.context, 2)
         scrollListener = object : EndlessScrollListener(gridLayoutManager, 2) {
@@ -64,6 +72,7 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
                 mBinding.progressPhotos.visibility = View.VISIBLE
                 mViewModel.fetchImages(page, mBinding.txtSearchPhotos.text.toString())
             }
+
             override fun onCurrentItem(position: Int) {}
         }
 
@@ -79,8 +88,7 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
             mViewModel.fetchImages(1, "fruits")
             mBinding.lblPopular.text =
                 requireActivity().getString(R.string.popular_data, "fruits")
-        } else{
-            mViewModel.fetchImages(1,mKeyWords)
+        } else {
             mBinding.lblPopular.text =
                 getString(R.string.popular_data, mKeyWords)
         }
@@ -111,6 +119,7 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
 
             if (it.isEmpty()) {
                 mBinding.tvNoData.visibility = View.VISIBLE
+                imageAdapter?.clearDataList()
                 imageAdapter?.setDataList(it)
             } else {
                 mBinding.tvNoData.visibility = View.GONE

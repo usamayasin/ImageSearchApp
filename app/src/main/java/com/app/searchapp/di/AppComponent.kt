@@ -1,18 +1,19 @@
 package com.app.searchapp.di
 
-import com.app.searchapp.data.repository.Repository
-import com.app.searchapp.ui.home.HomeFragment
-import com.app.searchapp.ui.home.HomeViewModel
+import com.app.searchapp.MyApplication
 import dagger.Component
+import dagger.android.AndroidInjectionModule
 import javax.inject.Singleton
 
 @Singleton
-@Component (modules = [ApiModule::class])
+@Component(
+    modules = [
+        AndroidInjectionModule::class,
+        HomeFragmentModule::class,
+        ViewModelModule::class,
+        ApiModule::class,
+    ]
+)
 interface AppComponent {
-
-    fun inject(fragment: HomeFragment)
-    fun inject(mHomeViewModel: HomeViewModel)
-    fun inject(mRepository: Repository)
-    fun inject(viewModelFactory:ViewModelFactory)
-
+    fun inject(application: MyApplication )
 }

@@ -1,32 +1,29 @@
 package com.app.searchapp
 
 import android.app.Application
-import android.content.Context
 import com.app.searchapp.di.ApiModule
-import com.app.searchapp.di.AppComponent
 import com.app.searchapp.di.DaggerAppComponent
 import com.app.searchapp.utils.SearchAppConst
+import dagger.android.AndroidInjector
+import dagger.android.DispatchingAndroidInjector
+import dagger.android.HasAndroidInjector
+import javax.inject.Inject
 
-open class MyApplication : Application() {
+open class MyApplication : Application(), HasAndroidInjector {
 
-    companion object {
-        var ctx: Context? = null
-        lateinit var appComponent:AppComponent
-    }
+    @Inject
+    lateinit var mInjector: DispatchingAndroidInjector<Any>
 
     override fun onCreate() {
         super.onCreate()
-        ctx = applicationContext
-        appComponent = initDaggerComponent()
-
-    }
-
-    open fun initDaggerComponent():AppComponent{
-        appComponent = DaggerAppComponent
+        DaggerAppComponent
             .builder()
             .apiModule(ApiModule(SearchAppConst.Keys.BASE_URL))
             .build()
-        return  appComponent
+            .inject(this)
     }
 
+    override fun androidInjector(): AndroidInjector<Any> {
+        return mInjector
+    }
 }

@@ -1,7 +1,6 @@
-package com.app.searchapp.data.service
+package com.app.searchapp.data.network
 
 import com.app.searchapp.model.PixabayImageList
-import io.reactivex.Flowable
 import io.reactivex.Observable
 import retrofit2.Response
 import retrofit2.http.GET
