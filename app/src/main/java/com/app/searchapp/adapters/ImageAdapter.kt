@@ -6,9 +6,11 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
+import com.app.searchapp.R
 import com.app.searchapp.databinding.PhotoItemLayoutBinding
 import com.app.searchapp.model.PixabayImage
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import java.util.ArrayList
 
 class ImageAdapter(
@@ -86,7 +88,13 @@ class ImageAdapter(
 
         fun bind(item: PixabayImage) {
             itemViewDataBinding.data = item
-            Glide.with(itemViewDataBinding.root.context).load(item.largeImageURL).into(itemViewDataBinding.imgPhoto)
+            Glide.with(itemViewDataBinding.root.context)
+                .load(item.largeImageURL)
+                .apply(
+                    RequestOptions()
+                        .placeholder(R.drawable.loading_animation)
+                        .error(R.drawable.ic_broken_image)
+                ).into(itemViewDataBinding.imgPhoto)
         }
     }
 }
