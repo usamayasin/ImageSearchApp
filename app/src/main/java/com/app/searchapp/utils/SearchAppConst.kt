@@ -9,6 +9,7 @@ object SearchAppConst {
         const val CONST_LIKES_KEY = "likes"
         const val CONST_COMMENTS_KEY = "comments"
         const val CONST_DOWNLOADS_KEY = "downloads"
+        const val CONST_API_LOG_KEY = "api_logs"
         const val BASE_URL = "https://pixabay.com/api/"
 
     }
