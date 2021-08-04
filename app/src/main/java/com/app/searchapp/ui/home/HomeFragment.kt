@@ -1,14 +1,15 @@
 package com.app.searchapp.ui.home
 
-import androidx.lifecycle.ViewModelProvider
+import android.content.Context
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.inputmethod.EditorInfo
 import android.widget.TextView
 import androidx.core.os.bundleOf
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -16,23 +17,31 @@ import cn.pedant.SweetAlert.SweetAlertDialog
 import com.app.searchapp.R
 import com.app.searchapp.adapters.ImageAdapter
 import com.app.searchapp.databinding.HomeFragmentBinding
+import com.app.searchapp.di.ViewModelFactory
 import com.app.searchapp.model.PixabayImage
 import com.app.searchapp.utils.EndlessScrollListener
 import com.app.searchapp.utils.SearchAppConst
 import com.app.searchapp.utils.closeSoftKeyboard
+import dagger.android.support.AndroidSupportInjection
 import kotlinx.android.synthetic.main.home_fragment.*
 import kotlinx.android.synthetic.main.home_fragment.view.*
-import java.util.ArrayList
+import java.util.*
+import javax.inject.Inject
 
 class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
 
-    private lateinit var mBinding:HomeFragmentBinding
-    private lateinit var viewModel: HomeViewModel
+    @Inject
+    lateinit var viewModelFactory: ViewModelFactory
+    private val mViewModel: HomeViewModel by viewModels {
+        viewModelFactory
+    }
+
+    private lateinit var mBinding: HomeFragmentBinding
     private var imageAdapter: ImageAdapter? = null
     private var imagesList: ArrayList<PixabayImage> = ArrayList<PixabayImage>()
     private lateinit var scrollListener: EndlessScrollListener
     private var isPagination = false
-    private var mKeyWords:String = ""
+    private var mKeyWords: String = ""
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -45,10 +54,13 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
     @Suppress("DEPRECATION")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-
-        viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
         init()
         setUpObserver()
+    }
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        AndroidSupportInjection.inject(this)
     }
 
     private fun init() {
@@ -58,8 +70,9 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
             override fun onLoadMore(page: Int, totalItemsCount: Int, view: RecyclerView?) {
                 isPagination = true
                 mBinding.progressPhotos.visibility = View.VISIBLE
-                viewModel.fetchImages(page, mBinding.txtSearchPhotos.text.toString())
+                mViewModel.fetchImages(page, mBinding.txtSearchPhotos.text.toString())
             }
+
             override fun onCurrentItem(position: Int) {}
         }
 
@@ -72,11 +85,10 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
 
         if (mKeyWords.isEmpty()) {
             mBinding.progressPhotos.visibility = View.VISIBLE
-            viewModel.fetchImages(1, "fruits")
+            mViewModel.fetchImages(1, "fruits")
             mBinding.lblPopular.text =
                 requireActivity().getString(R.string.popular_data, "fruits")
-        } else{
-            viewModel.fetchImages(1,mKeyWords)
+        } else {
             mBinding.lblPopular.text =
                 getString(R.string.popular_data, mKeyWords)
         }
@@ -87,7 +99,7 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
                 v.closeSoftKeyboard()
                 mKeyWords = mBinding.txtSearchPhotos.text.toString()
                 mBinding.progressPhotos.visibility = View.VISIBLE
-                viewModel.fetchImages(1, mBinding.txtSearchPhotos.text.toString())
+                mViewModel.fetchImages(1, mBinding.txtSearchPhotos.text.toString())
                 if (mBinding.txtSearchPhotos.text.toString() != "") {
                     mBinding.lblPopular.text =
                         getString(R.string.popular_data, mBinding.txtSearchPhotos.text.toString())
@@ -102,11 +114,12 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
     }
 
     private fun setUpObserver() {
-        viewModel.imageLiveData.observe(requireActivity()) {
+        mViewModel.imageLiveData.observe(requireActivity()) {
             mBinding.progressPhotos.visibility = View.GONE
 
             if (it.isEmpty()) {
                 mBinding.tvNoData.visibility = View.VISIBLE
+                imageAdapter?.clearDataList()
                 imageAdapter?.setDataList(it)
             } else {
                 mBinding.tvNoData.visibility = View.GONE
@@ -117,23 +130,14 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
         }
     }
 
-//    override fun onResume() {
-//        if(mKeyWords.isNotEmpty()){
-//            viewModel.fetchImages(1,mKeyWords)
-//            mBinding.lblPopular.text =
-//                getString(R.string.popular_data, mKeyWords)
-//        }
-//        super.onResume()
-//    }
-
     override fun onImageClicked(image: PixabayImage) {
         val bundle = bundleOf(
-            SearchAppConst.CONST_IMAGE_KEY to image.largeImageURL,
-            SearchAppConst.CONST_USERNAME_KEY to image.user,
-            SearchAppConst.CONST_TAGS_KEY to image.tags,
-            SearchAppConst.CONST_LIKES_KEY to image.likes.toString(),
-            SearchAppConst.CONST_DOWNLOADS_KEY to image.downloads.toString(),
-            SearchAppConst.CONST_COMMENTS_KEY to image.comments.toString()
+            SearchAppConst.Keys.CONST_IMAGE_KEY to image.largeImageURL,
+            SearchAppConst.Keys.CONST_USERNAME_KEY to image.user,
+            SearchAppConst.Keys.CONST_TAGS_KEY to image.tags,
+            SearchAppConst.Keys.CONST_LIKES_KEY to image.likes.toString(),
+            SearchAppConst.Keys.CONST_DOWNLOADS_KEY to image.downloads.toString(),
+            SearchAppConst.Keys.CONST_COMMENTS_KEY to image.comments.toString()
         )
 
         SweetAlertDialog(context, SweetAlertDialog.SUCCESS_TYPE)

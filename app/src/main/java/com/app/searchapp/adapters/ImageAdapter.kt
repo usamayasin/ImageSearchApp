@@ -4,12 +4,8 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import android.widget.Toast
-import androidx.databinding.ViewDataBinding
 import androidx.recyclerview.widget.RecyclerView
-import com.app.searchapp.R
 import com.app.searchapp.databinding.PhotoItemLayoutBinding
 import com.app.searchapp.model.PixabayImage
 import com.bumptech.glide.Glide
@@ -25,7 +21,6 @@ class ImageAdapter(
         fun onImageClicked(image: PixabayImage)
     }
 
-
     var listModels: ArrayList<PixabayImage>
 
     init {
@@ -34,6 +29,11 @@ class ImageAdapter(
 
     fun setDataList(listModels: List<PixabayImage>) {
         this.listModels = listModels as ArrayList<PixabayImage>
+        notifyDataSetChanged()
+    }
+
+    fun clearDataList(){
+        this.listModels.clear()
         notifyDataSetChanged()
     }
 
@@ -63,33 +63,24 @@ class ImageAdapter(
     }
 
     inner class ImagesViewHolder(
-        val itemViewDataBinding: PhotoItemLayoutBinding,
-        argg_list: List<PixabayImage>,
+        private val itemViewDataBinding: PhotoItemLayoutBinding,
+        imagesList: List<PixabayImage>,
         var context: Context
     ) :
         RecyclerView.ViewHolder(itemViewDataBinding.root), View.OnClickListener {
 
-        //        var imgPhoto: ImageView? = null
-//        var tvTags: TextView? = null
-//        var tvUsername: TextView? = null
         var dataList: List<PixabayImage>
 
         override fun onClick(v: View) {
-            listener.onImageClicked(dataList[adapterPosition])
+            if(adapterPosition < dataList.size) listener.onImageClicked(dataList[adapterPosition])
         }
 
         init {
-            dataList = argg_list
+            dataList = imagesList
             try {
-//                imgPhoto = itemView.findViewById(R.id.imgPhoto)
-//                tvTags = itemView.findViewById(R.id.tvTags)
-//                tvUsername = itemView.findViewById(R.id.tvUsername)
-//                itemViewDataBinding.cardPhoto
-
                 itemViewDataBinding.root.setOnClickListener(this)
             } catch (e: Exception) {
-                Toast.makeText(context, "Error in View Holder " + e.message, Toast.LENGTH_LONG)
-                    .show()
+                Toast.makeText(context, "Error in View Holder " + e.message, Toast.LENGTH_LONG).show()
             }
         }
 

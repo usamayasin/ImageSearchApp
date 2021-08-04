@@ -1,13 +1,12 @@
-package com.app.searchapp.data.service
+package com.app.searchapp.data.network
 
 import com.app.searchapp.model.PixabayImageList
-import io.reactivex.Flowable
 import io.reactivex.Observable
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-interface ApiInterface {
+interface ApiService {
 
     @GET("?key=22656441-f7598bc34d9ae4af668fae94a&image_type=photo")
     fun getImages(
