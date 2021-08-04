@@ -12,6 +12,7 @@ import javax.inject.Singleton
         HomeFragmentModule::class,
         ViewModelModule::class,
         ApiModule::class,
+        AppModule::class
     ]
 )
 interface AppComponent {
