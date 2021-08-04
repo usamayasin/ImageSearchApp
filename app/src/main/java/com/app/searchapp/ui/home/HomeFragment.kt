@@ -27,6 +27,7 @@ import kotlinx.android.synthetic.main.home_fragment.*
 import kotlinx.android.synthetic.main.home_fragment.view.*
 import java.util.*
 import javax.inject.Inject
+import kotlin.collections.ArrayList
 
 class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
 
@@ -123,14 +124,19 @@ class HomeFragment : Fragment(), ImageAdapter.ImageClickListener {
                 imageAdapter?.setDataList(it)
             } else {
                 mBinding.tvNoData.visibility = View.GONE
-                if (!isPagination) imageAdapter?.setDataList(it) else imageAdapter?.appendDataList(
-                    it
-                )
+                if (!isPagination){
+                    imagesList = it as ArrayList<PixabayImage>
+                    imageAdapter?.setDataList(it)
+                } else {
+                    imagesList.addAll(it as ArrayList<PixabayImage>)
+                    imageAdapter?.appendDataList(it)
+                }
             }
         }
     }
 
-    override fun onImageClicked(image: PixabayImage) {
+    override fun onImageClicked(position: Int) {
+        val image = imagesList[position]
         val bundle = bundleOf(
             SearchAppConst.Keys.CONST_IMAGE_KEY to image.largeImageURL,
             SearchAppConst.Keys.CONST_USERNAME_KEY to image.user,

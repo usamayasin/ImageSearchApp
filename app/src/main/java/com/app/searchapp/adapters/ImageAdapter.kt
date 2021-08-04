@@ -11,6 +11,7 @@ import com.app.searchapp.databinding.PhotoItemLayoutBinding
 import com.app.searchapp.model.PixabayImage
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
+import com.bumptech.glide.request.target.Target
 import java.util.ArrayList
 
 class ImageAdapter(
@@ -20,7 +21,7 @@ class ImageAdapter(
     RecyclerView.Adapter<ImageAdapter.ImagesViewHolder>() {
 
     interface ImageClickListener {
-        fun onImageClicked(image: PixabayImage)
+        fun onImageClicked(position: Int)
     }
 
     var listModels: ArrayList<PixabayImage>
@@ -34,7 +35,7 @@ class ImageAdapter(
         notifyDataSetChanged()
     }
 
-    fun clearDataList(){
+    fun clearDataList() {
         this.listModels.clear()
         notifyDataSetChanged()
     }
@@ -74,7 +75,7 @@ class ImageAdapter(
         var dataList: List<PixabayImage>
 
         override fun onClick(v: View) {
-            if(adapterPosition < dataList.size) listener.onImageClicked(dataList[adapterPosition])
+            if (adapterPosition < dataList.size) listener.onImageClicked(adapterPosition)
         }
 
         init {
@@ -94,7 +95,8 @@ class ImageAdapter(
                     RequestOptions()
                         .placeholder(R.drawable.loading_animation)
                         .error(R.drawable.ic_broken_image)
-                ).into(itemViewDataBinding.imgPhoto)
+                ).override(Target.SIZE_ORIGINAL)
+                .into(itemViewDataBinding.imgPhoto)
         }
     }
 }
